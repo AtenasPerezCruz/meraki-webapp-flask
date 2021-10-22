@@ -28,6 +28,7 @@ After wirting the information required and uploading the company logo, it is nec
 The following list ilustrates how to run the code locally.
 
 1. Clone this repository https://github.com/AtenasPerezCruz/meraki-webapp-flask.git
+* Install Python 3.9.7
 2. Create a virtual environment and activate it
     * Create virtual environment with venv
       ```sh
@@ -64,7 +65,7 @@ The following list ilustrates how to run the code locally.
     SECRET_KEY | Hard to guess string (for Flask)
     MERAKI_API_KEY | API key used to access the Dashboard 
     MERAKI_ORG_ID | Organization ID  
-    HERE_MAPS_API_KEY | API key issued from the HERE MAPS developer account
+    HERE_MAPS_API_KEY | API key issued from the HERE MAPS developer account. Must be a JAVASCRIPT API KEY. https://developer.here.com
     LOGO_URL | Organization logo path
     ADMIN_MAIL | Default admin email
     ADMIN_PASSWORD | Default admin password  
